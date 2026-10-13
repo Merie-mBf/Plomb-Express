@@ -1,0 +1,18 @@
+header{
+    flex-wrap: wrap;
+        padding: 15px;
+        gap: 15px;
+    background-color: red;
+}
+#hero{
+    background-color:green ;
+}
+#services{
+    background-color: aqua;
+}
+#derniereSec{
+    background-color: orangered;
+}
+footer{
+    background-color: yellow;
+}
