@@ -1,18 +1,88 @@
-header{
-    flex-wrap: wrap;
-        padding: 15px;
-        gap: 15px;
-    background-color: red;
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
 }
-#hero{
-    background-color:green ;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+    background-color: #FFFFFF;
 }
-#services{
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0866C2;
+    background-color: #0866C2;
+    border-radius: 10px;
+}
+
+.logo span {
+    color: #08111D;
+    font-size: 25px;
+    font-weight: bold;
+    align-content: center;
+}
+
+.logo small {
+    color: #0866C2;
+}
+
+.navigation nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.navigation nav a {
+    color: #102A43;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navigation nav a:hover {
+    font-weight: 700;
+    color: #0866C2;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 3px;
+}
+
+.button-demande a {
+    background-color: #FF6418;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+#hero {
+    background-color: green;
+}
+
+#services {
     background-color: aqua;
 }
-#derniereSec{
+
+#derniereSec {
     background-color: orangered;
 }
-footer{
+
+footer {
     background-color: yellow;
 }
