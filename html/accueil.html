@@ -11,8 +11,11 @@
 <body>
     <header>
         <div class="logo">
-            <img src="/assets/icons/droplet.svg" alt="logo de site"d>
-            <span>Plomb’Express</span>
+            <img src="/assets/icons/droplet.svg" alt="logo de site">
+            <span>Plomb’<small>Express</small></span>
+        </div>
+        <div class="humberger-list">
+            <img src="/assets/icons/menu.svg" alt="humberger-list">
         </div>
         <div class="navigation">
             <nav>
@@ -22,25 +25,26 @@
                 <a href="contact.html">Contact</a>
             </nav>
         </div>
-        <div class="button-demande">
+        <div class="btn-primary">
             <a href="contact.html">Demander un devis</a>
         </div>
     </header>
+    <hr>
     <main>
         <section id="hero">
             <div class="top">
                 <div class="text">
-                    <h6>Votre artisan à Lyon et alentours</h6>
-                    <h1>Un plombier de confiance près de chez vous</h1>
-                    <p>Chez Plomb’Express, nous prenons soin de votre confort. Dépannage,
-                        installation ou fuite : nos artisans vous accompagnent avec réactivité,
+                    <small>Votre artisan à Lyon et alentours</small>
+                    <h1>Un plombier de <br>confiance près de <br> chez vous</h1>
+                    <p>Chez Plomb’Express, nous prenons soin de votre confort. Dépannage,<br>
+                        installation ou fuite : nos artisans vous accompagnent avec réactivité,<br>
                         transparence et un travail soigné.</p>
-                    <a href="contact.html">Demander un devis</a>
-                    <a href="Services.html">Nos services</a>
+                    <div>
+                        <div class="btn-primary"><a href="contact.html">Demander un devis</a></div>
+                        <div class="btn-secondary"><a href="Services.html">Nos services</a></div>
+                    </div>
                 </div>
-                <div class="img">
-                    <img src="/assets/images/Portrait du plombier.png" alt="Portrait du plombier">
-                </div>
+                <img src="/assets/images/Portrait du plombier.png" alt="Portrait du plombier">
             </div>
             <hr>
             <div class="bottom">
@@ -52,126 +56,143 @@
                     <img src="/assets/icons/badge-check.svg" alt="clock">
                     <span>Travail garanti</span>
                 </div>
-            </div>
-            <div>
-                <img src="/assets/icons/shield-check.svg" alt="">
-                <span>Professionnels qualifiés</span>
+                <div>
+                    <img src="/assets/icons/shield-check.svg" alt="">
+                    <span>Professionnels qualifiés</span>
+                </div>
             </div>
         </section>
-       # <section id="services">
+        <section id="services">
             <div class="titre">
-                <h5>NOS SAVOIR-FAIRE</h5>
+                <small>NOS SAVOIR-FAIRE</small>
                 <h2>Des solutions pour tous vos besoins</h2>
                 <span>De l’urgence au projet, le bon geste pour chaque situation.</span>
             </div>
             <div class="card">
                 <div>
-                    <img src="/assets/icons/wrench.svg" alt="icon-wrench">
-                    <img src="/assets/images/service1.png" alt="Dépannage plomberie">
+                    <img class="img" src="/assets/images/service3.png" alt="Dépannage plomberie">
+                    <img class="icon" src="/assets/icons/wrench.svg" alt="icon-wrench">
+                    <span>Dépannage plomberie</span>
                     <p>Canalisation bouchée, chauffe-eau en panne ou
                         robinet défectueux : nous intervenons vite pour
                         rétablir votre confort.</p>
                 </div>
                 <div>
-                    <img src="/assets/icons/bath.svg" alt="icon-bath">
-                    <img src="/assets/images/service2.png" alt="Installation sanitaire">
+                    <img class="img" src="/assets/images/service2.png" alt="Installation sanitaire">
+                    <img class="icon" src="/assets/icons/bath.svg" alt="icon-bath">
+                    <span>Installation sanitaire</span>
                     <p>Lavabo, douche, WC ou robinetterie : une
                         installation sur mesure, des raccordements
                         fiables et des finitions soignées.</p>
                 </div>
                 <div>
-                    <img src="/assets/icons/droplets.svg" alt="icon-">
-                    <img src="/assets/images/service3.png" alt="Réparation de fuites">
+                    <img class="img" src="/assets/images/service1.png" alt="Installation sanitaire">
+                    <img class="icon" src="/assets/icons/droplets.svg" alt="icon-">
+                    <span>Réparation de fuites</span>
                     <p>Nous localisons la fuite et réparons vos
                         canalisations durablement, pour protéger votre
                         logement et éviter le gaspillage.</p>
                 </div>
+            </div>
+            <div class="btn-secondary">
                 <a href="/html/Services.html">Voir tous nos services</a>
             </div>
         </section>
-        <section id="derniereSec">
-            <div>
+        <section id="service-fiable">
+            <div class="image">
                 <img src="/assets/images/Robinet moderne.png" alt="Pourquoi nous choisir">
-                <div class="text">
-                    <h6>POURQUOI NOUS CHOISIR ?</h6>
-                    <h3>Un service fiable et de qualité</h3>
-                    <P>Votre tranquillité mérite un artisan engagé. Nous faisons de la qualité et de la
-                        confiance nos priorités, à chaque intervention.</P>
-                </div>
-                <div>
+            </div>
+            <div class="texte">
+                <small>POURQUOI NOUS CHOISIR ?</small>
+                <h3>Un service fiable et de qualité</h3>
+                <P>Votre tranquillité mérite un artisan engagé. Nous faisons de la qualité et de la <br>
+                    confiance nos priorités, à chaque intervention.</P>
+                <div class="top">
                     <div>
-                        <img src="/assets/icons/shield-check.svg" alt="Expertise">
-                        <span>Expertise</span>
-                        <p>Des artisans qualifiés et expérimentés pour un
+                        <div class="titre">
+                            <img src="/assets/icons/shield-check.svg" alt="Expertise">
+                            <span>Expertise</span>
+                        </div>
+                        <p>Des artisans qualifiés et expérimentés pour un <br>
                             diagnostic précis.</p>
                     </div>
                     <div>
-                        <img src="/assets/icons/clipboard-list.svg" alt="Devis gratuit">
-                        <span>Devis gratuit</span>
-                        <p>Un prix clair avant les travaux, sans mauvaise
+                        <div class="titre">
+                            <img src="/assets/icons/clipboard-list.svg" alt="Devis gratuit">
+                            <span>Devis gratuit</span>
+                        </div>
+                        <p>Un prix clair avant les travaux, sans mauvaise <br>
                             surprise.</p>
                     </div>
+                </div>
+                <div class="bottom">
                     <div>
-                        <img src="/assets/icons/badge-check.svg" alt="Garantie">
-                        <span>Garantie</span>
-                        <p>Des travaux garantis et des équipements
+                        <div class="titre">
+                            <img src="/assets/icons/badge-check.svg" alt="Garantie">
+                            <span>Garantie</span>
+                        </div>
+                        <p>Des travaux garantis et des équipements <br>
                             sélectionnés pour durer.</p>
                     </div>
                     <div>
-                        <img src="/assets/icons/headset.svg" alt="Service client">
-                        <span>Service client</span>
-                        <p>Une équipe à votre écoute, du premier appel
+                        <div class="titre">
+                            <img src="/assets/icons/headset.svg" alt="Service client">
+                            <span>Service client</span>
+                        </div>
+                        <p>Une équipe à votre écoute, du premier appel <br>
                             au suivi de votre intervention.</p>
                     </div>
                 </div>
-            </div>
         </section>
     </main>
     <footer>
         <div class="top">
-            <div class="one">
-                <img src="/assets/icons/droplet.svg" alt="logo de site" style="background-color: blue;width:    20px;">
-                <span>Plomb’Express</span>
-                <p>Votre partenaire plomberie pour un quotidien
-                    serein. Des artisans de proximité, un travail
+            <div class="Plomb-Express">
+                <div class="logoF">
+                    <img src="/assets/icons/droplet.svg" alt="logo de site">
+                    <span>Plomb’Express</span>
+                </div>
+                <p>Votre partenaire plomberie pour un quotidien <br>
+                    serein. Des artisans de proximité, un travail <br>
                     soigné et des engagements tenus.</p>
             </div>
-            <div class="two">
+            <div class="Liens-utiles">
                 <strong>Liens utiles</strong>
                 <a href="accueil.html">Accueil</a>
                 <a href="Services.html">Services</a>
                 <a href="A propos.html">A propos</a>
                 <a href="contact.html">Contact</a>
             </div>
-            <div class="tree">
+            <div class="Nos-services">
                 <strong>Nos services</strong>
                 <span>Dépannage plomberie</span>
                 <span>Installation sanitaire</span>
                 <span>Réparation de fuites</span>
             </div>
-            <div class="four">
+            <div class="Contactez-nous">
                 <strong>Contactez-nous</strong>
-                <img src="/assets/icons/phone.svg" alt="phone">
-                <span>04 00 00 00 00</span>
+                <div><img src="/assets/icons/phone.svg" alt="phone">
+                    <span>04 00 00 00 00</span>
+                </div>
 
-                <img src="/assets/icons/mail.svg" alt="mail">
-                <span>bonjour@plombexpress.example</span>
+                <div><img src="/assets/icons/mail.svg" alt="mail">
+                    <span>bonjour@plombexpress.example</span>
+                </div>
 
-                <img src="/assets/icons/location.svg" alt="location">
-                <span>12 rue des Artisans
-                    69003 Lyon, France</span>
-                <small>Coordonnées fictives — site de démonstration.</small>
+                <div><img src="/assets/icons/location.svg" alt="location">
+                    <span>12 rue des Artisans <br>
+                        69003 Lyon, France</span>
+                </div>
+                <small style="color: rgb(216, 213, 213);">Coordonnées fictives — site de démonstration</small>
             </div>
         </div>
         <hr>
         <div class="bottom">
-            <div class="right">
-                <p>© 2026 Plomb’Express. Tous droits réservés.</p>
-            </div>
-            <div class="left">
-                <p>Mentions légales Confidentialité</p>
-            </div>
+            <p>© 2026 Plomb’Express Tous droits réservés</p>
+            <p>Mentions légales Confidentialité</p>
+
         </div>
     </footer>
 </body>
+
 </html>
