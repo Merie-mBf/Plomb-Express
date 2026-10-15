@@ -43,9 +43,11 @@ header {
 .logo small {
     color: #0866C2;
 }
-.humberger-list{
+
+.humberger-list {
     display: none;
 }
+
 .navigation nav {
     display: flex;
     justify-content: center;
@@ -73,7 +75,7 @@ header {
     padding: 15px 18px;
     border-radius: 10px;
     text-decoration: none;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -406,6 +408,7 @@ footer .top .logoF span {
     font-size: 25px;
     font-weight: bold;
 }
+
 footer .Plomb-Express,
 .Liens-utiles,
 .Nos-services,
@@ -491,21 +494,26 @@ footer .bottom p {
     header {
         padding: 15px 20px;
     }
-    .navigation{
+
+    .navigation {
         display: none;
     }
-    .humberger-list{
+
+    .humberger-list {
         display: block;
         cursor: pointer;
         width: 30px;
         height: 30px;
     }
-    header .btn-primary{
+
+    header .btn-primary {
         width: 100%;
     }
-    header .btn-primary a{
+
+    header .btn-primary a {
         width: 100%;
     }
+
     #hero {
         padding: 20px;
     }
@@ -519,14 +527,14 @@ footer .bottom p {
     }
 
     #hero .img {
-        
+
         width: 100%;
         order: -1;
         margin-bottom: 20px;
     }
 
     #hero .top img {
-        padding-top:32px ;
+        padding-top: 32px;
         width: 85%;
         max-width: 320px;
     }
@@ -554,7 +562,7 @@ footer .bottom p {
         width: 100%;
         justify-content: flex-start;
     }
-    
+
     #services {
         padding: 30px 20px;
     }

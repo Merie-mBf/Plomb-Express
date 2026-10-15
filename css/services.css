@@ -1,0 +1,214 @@
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+    background-color: #FFFFFF;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0866C2;
+    background-color: #0866C2;
+    border-radius: 10px;
+}
+
+.logo span {
+    color: #08111D;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo small {
+    color: #0866C2;
+}
+
+.humberger-list {
+    display: none;
+}
+
+.navigation nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.navigation nav a {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navigation nav a:hover {
+    color: #0866C2;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 3px;
+}
+
+.btn-primary a {
+    background-color: #FF6418;
+    color: white;
+    padding: 15px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: #FFFFFF;
+    padding: 40px 100px 0px 100px;
+    background-color: #102A43;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+footer .top .logoF {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+footer .top .logoF img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0866C2;
+    background-color: #0866C2;
+    border-radius: 10px;
+}
+
+footer .top .logoF span {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer .Plomb-Express,
+.Liens-utiles,
+.Nos-services,
+.Contactez-nous {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Liens-utiles a,
+.Plomb-Express p,
+.Nos-services span,
+.Contactez-nous span {
+    color: rgb(216, 213, 213);
+    text-decoration: none;
+}
+
+.Contactez-nous img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.Contactez-nous div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+footer .bottom {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer .bottom p {
+    color: #B2BDB3;
+}
