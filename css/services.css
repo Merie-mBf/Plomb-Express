@@ -7,7 +7,6 @@
 
 img {
     max-width: 100%;
-    height: auto;
 }
 
 header {
@@ -80,9 +79,105 @@ header {
     justify-content: center;
 }
 
+#hero {
+    margin: 0px 100px;
+    background-image: url("/assets/images/hero.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+#hero h1 {
+    font-size: 70px;
+    line-height: 1;
+    padding-top: 150px;
+    color: #0866C2;
+}
+
+#hero p {
+    font-size: 35px;
+    font-weight: 500;
+    color: black;
+}
+
+#services {
+    padding: 25px 100px;
+    background-color: #FFFFFF;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.child {
+    height: 100%;
+    border: 1px solid rgb(217, 214, 214);
+    border-radius: 15px;
+    background-color: #f4f5f7;
+}
+
+.child img {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.child span {
+    color: #102A43;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 125%;
+    margin-left: 10px;
+
+}
+
+.child p {
+    color: #486176;
+    margin: 20px 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 165%;
+    letter-spacing: 0;
+}
+
+#accompagnement {
+    padding: 50px 100px;
+    background-color:#f4f5f7;
+}
+
+#accompagnement span{
+    color: #0866C2;
+    font-weight: bold;
+}
+#accompagnement h2{
+    padding: 15px 0px;
+    color: #102A43;
+}
+#accompagnement .steps{
+    display: flex;
+    justify-content: space-between;
+}
+
+#accompagnement .step{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#accompagnement .step 
 
 
 
+#Contactez-nous {
+    padding: 25px 100px;
+    background-color: yellow;
+}
 
 
 
